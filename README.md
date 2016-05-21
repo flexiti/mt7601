@@ -1,5 +1,5 @@
 # mt7601
-Mediatek MT7601 driver
+Mediatek MT7601 driver (copy of oryginal Mediatek driver Copyright 2002-2010, Ralink Technology, Inc.)
 
 usage:
 
