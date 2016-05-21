@@ -9,7 +9,7 @@ sudo apt-get install git
 
 git clone https://github.com/flexiti/mt7601.git 
 
-cd mt7601/src
+cd mt7601
 
 make clean 
 
