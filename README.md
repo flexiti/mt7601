@@ -8,13 +8,21 @@ sudo apt-get install linux-headers-generic build-essential git
 sudo apt-get install git
 
 git clone https://github.com/flexiti/mt7601.git 
+
 cd mt7601/src
+
 make clean 
+
 make
+
 sudo make install
+
 sudo mkdir -p /etc/Wireless/RT2870STA/
+
 sudo cp RT2870STA.dat /etc/Wireless/RT2870STA/
+
 sudo modprobe mt7601Usta
+
 Your wireless should now be working.
 Tested on Armbian (Debian Jessy and Ubuntu Trusty)
 ps.
