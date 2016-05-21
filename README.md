@@ -26,9 +26,9 @@ sudo modprobe mt7601Usta
 Your wireless should now be working.
 Tested on Armbian (Debian Jessy and Ubuntu Trusty)
 ps.
-network config example: 
-auto ra0
+network config example:
 
+        auto ra0
 	iface ra0 inet static     
         address 192.168.0.2
         netmask 255.255.255.0
