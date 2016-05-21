@@ -2,8 +2,11 @@
 Mediatek MT7601 driver
 
 usage:
+
 sudo apt-get install linux-headers-generic build-essential git
+
 sudo apt-get install git
+
 git clone https://github.com/flexiti/mt7601.git 
 cd mt7601/src
 make clean 
